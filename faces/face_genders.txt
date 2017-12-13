@@ -1,4 +1,4 @@
-Face 1:
+Face 1: Male
 Face 2:
 Face 3:
 Face 4:
@@ -7,119 +7,110 @@ Face 6:
 Face 7:
 Face 8:
 Face 9:
-Face 10:
-Face 11:
-Face 12:
-Face 13:
-Face 14:
-Face 15:
-Face 16:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Face 10: Male
+Face 11: Male
+Face 12: Female
+Face 13: Female
+Face 14: Male
+Face 15: Male
+Face 16: Female
+Face 17: Female
+Face 18: Male
+Face 19: Female
+Face 20:
+Face 21:
+Face 22:
+Face 23:
+Face 24:
+Face 25:
+Face 26:
+Face 27:
+Face 28:
+Face 29:
+Face 30:
+Face 31:
+Face 32:
+Face 33:
+Face 34:
+Face 35:
+Face 36:
+Face 37:
+Face 38:
+Face 39:
+Face 40:
+Face 41:
+Face 42:
+Face 43:
+Face 44:
+Face 45:
+Face 46:
+Face 47:
+Face 48:
+Face 49:
+Face 50:
+Face 51:
+Face 52:
+Face 53:
+Face 54:
+Face 55:
+Face 56:
+Face 57:
+Face 58:
+Face 59:
+Face 60:
+Face 61:
+Face 62:
+Face 63:
+Face 64:
+Face 65:
+Face 66:
+Face 67:
+Face 68:
+Face 69:
+Face 70:
+Face 71:
+Face 72:
+Face 73:
+Face 74:
+Face 75:
+Face 76:
+Face 77:
+Face 78:
+Face 79:
+Face 80:
+Face 81:
+Face 82:
+Face 83:
+Face 84:
+Face 85:
+Face 86:
+Face 87:
+Face 88:
+Face 89:
+Face 90:
+Face 91:
+Face 92:
+Face 93:
+Face 94:
+Face 95:
+Face 96:
+Face 97:
+Face 98:
+Face 99:
+Face 100: Male
+Face 101: Male
+Face 102: Male
+Face 103: Female
+Face 104: Female
+Face 105: Male
+Face 106: Male
+Face 107: Female
+Face 108: Male
+Face 109: Male
+Face 110: Male
+Face 111: Female
+Face 112: Female
+Face 113: Male
+Face 114: Male
+Face 115: Male
+Face 116: Female
