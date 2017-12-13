@@ -1,12 +1,12 @@
 Face 1: Male
-Face 2:
-Face 3:
-Face 4:
-Face 5:
-Face 6:
-Face 7:
-Face 8:
-Face 9:
+Face 2: Female
+Face 3: Male
+Face 4: Male
+Face 5: Female
+Face 6: Male
+Face 7: Male
+Face 8: Male
+Face 9: Female
 Face 10: Male
 Face 11: Male
 Face 12: Female
@@ -17,86 +17,86 @@ Face 16: Female
 Face 17: Female
 Face 18: Male
 Face 19: Female
-Face 20:
-Face 21:
-Face 22:
-Face 23:
-Face 24:
-Face 25:
-Face 26:
-Face 27:
-Face 28:
-Face 29:
-Face 30:
-Face 31:
-Face 32:
-Face 33:
-Face 34:
-Face 35:
-Face 36:
-Face 37:
-Face 38:
-Face 39:
-Face 40:
-Face 41:
-Face 42:
-Face 43:
-Face 44:
-Face 45:
-Face 46:
-Face 47:
-Face 48:
-Face 49:
-Face 50:
-Face 51:
-Face 52:
-Face 53:
-Face 54:
-Face 55:
-Face 56:
-Face 57:
-Face 58:
-Face 59:
-Face 60:
-Face 61:
-Face 62:
-Face 63:
-Face 64:
-Face 65:
-Face 66:
-Face 67:
-Face 68:
-Face 69:
-Face 70:
-Face 71:
-Face 72:
-Face 73:
-Face 74:
-Face 75:
-Face 76:
-Face 77:
-Face 78:
-Face 79:
-Face 80:
-Face 81:
-Face 82:
-Face 83:
-Face 84:
-Face 85:
-Face 86:
-Face 87:
-Face 88:
-Face 89:
-Face 90:
-Face 91:
-Face 92:
-Face 93:
-Face 94:
-Face 95:
-Face 96:
-Face 97:
-Face 98:
-Face 99:
+Face 20: Female
+Face 21: Male
+Face 22: Female
+Face 23: Female
+Face 24: Female
+Face 25: Female
+Face 26: Female
+Face 27: Female
+Face 28: Female
+Face 29: Female
+Face 30: Male
+Face 31: Female
+Face 32: Female
+Face 33: Male
+Face 34: Female
+Face 35: Female
+Face 36: Female
+Face 37: Female
+Face 38: Female
+Face 39: Female
+Face 40: Female
+Face 41: Female
+Face 42: Female
+Face 43: Female
+Face 44: Male
+Face 45: Male
+Face 46: Male
+Face 47: Male
+Face 48: Male
+Face 49: Male
+Face 50: Male
+Face 51: Male
+Face 52: Male
+Face 53: Male
+Face 54: Male
+Face 55: Female
+Face 56: Male
+Face 57: Male
+Face 58: Male
+Face 59: Male
+Face 60: Female
+Face 61: Female
+Face 62: Male
+Face 63: Male
+Face 64: Male
+Face 65: Male
+Face 66: Male
+Face 67: Male
+Face 68: Male
+Face 69: Male
+Face 70: Male
+Face 71: Male
+Face 72: Male
+Face 73: Male
+Face 74: Male
+Face 75: Male
+Face 76: Female
+Face 77: Male
+Face 78: Male
+Face 79: Male
+Face 80: Female
+Face 81: Male
+Face 82: Male
+Face 83: Male
+Face 84: Male
+Face 85: Female
+Face 86: Female
+Face 87: Male
+Face 88: Male
+Face 89: Female
+Face 90: Female
+Face 91: Male
+Face 92: Male
+Face 93: Female
+Face 94: Female
+Face 95: Male
+Face 96: Female
+Face 97: Male
+Face 98: Female
+Face 99: Female
 Face 100: Male
 Face 101: Male
 Face 102: Male
