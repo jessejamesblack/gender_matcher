@@ -1,18 +1,24 @@
 import cv2
 
-from modules.tools import trim_image_padding
+from modules.tools import show_image_until_keypress
 
-IMAGE_PATH = 'faces/Face 1.png'
+IMAGE_PATH = 'faces/Face 44.png'
 
 def main():
     # Read in image with cv2
-    img = cv2.imread(IMAGE_PATH)
-    cv2.imshow('img', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    original = cv2.imread(IMAGE_PATH)
+    gray_image = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
+    # contrast = increase_image_contrast(gray_image)
+    show_image_until_keypress(gray_image)
 
-    # First, process the image so that extra white space is removed.
-    trimmed_img = trim_image_padding(img)
+    img_rows, img_cols = gray_image.shape
+
+    print(img_rows, img_cols)
+
+    # for row in img_rows:
+    #     print(row)
+
+    # trimmed_img = trim_image_padding(img)
 
 
 
