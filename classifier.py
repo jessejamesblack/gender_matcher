@@ -1,45 +1,38 @@
 import cv2
+from modules.tools import *
 
-from modules.tools import show_image_until_keypress, make_img_black_and_white
+IMAGE_PATH = 'faces/Face 6.png'
 
-IMAGE_PATH = 'faces/Face 44.png'
+class SimpleNeuron(object):
+    def __init__(self):
+        self.input_value = 0
+        self.weight = 0.5
+
+    def update_weight(self, weight):
+        self.weight = weight
+
+    def change_input(self, amended):
+        self.input_value = amended
 
 def main():
     # Read in image with cv2
-    img = cv2.imread(IMAGE_PATH)
-    img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    img = make_img_black_and_white(img_gray)
-    show_image_until_keypress(img)
-    show_image_until_keypress(img_gray)
+    original_img = cv2.imread(IMAGE_PATH)
 
-    num_rows, num_cols = img.shape
+    # Convert to greyscale
+    gray_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2GRAY)
 
-    top_left = img[0, 0]
-    top_right = img[0, num_cols - 1]
-    bottom_left = img[num_rows - 1, 0]
-    bottom_right = img[num_rows - 1, num_cols - 1]
+    # Convert to binary
+    binary_img = make_img_black_and_white(gray_img)
 
-    # print('top_left = {}'.format(top_left))
-    # print('top_right = {}'.format(top_right))
-    # print('bottom_left = {}'.format(bottom_left))
-    # print('bottom_right = {}'.format(bottom_right))
-    print('number of rows: {}'.format(num_rows))
-    print('number of cols: {}'.format(num_cols))
+    # Trim this image until only
+    trimmed_img = trim_image_padding(binary_img)
 
-    for col in range(num_cols):
+    # show_image_until_keypress(binary_img)
+    show_image_until_keypress(trimmed_img)
+    cv2.imwrite('trimmed.png', trimmed_img)
 
-        col_sum = 0
+    initialize_layer(trimmed_img)
 
-        for row in range(num_rows):
-            col_sum += img[row, col]
-
-        print('avg of col {}: {}'.format(col + 1, col_sum / num_rows))
-
-
-    # for row in img_rows:
-    #     print(row)
-
-    # trimmed_img = trim_image_padding(img)
 
 
 if __name__ == '__main__':
